@@ -34,6 +34,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lnkLogOut = new MetroFramework.Controls.MetroLink();
             this.metroGrid2 = new MetroFramework.Controls.MetroGrid();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,10 +97,20 @@
             this.metroGrid2.UseCustomForeColor = true;
             this.metroGrid2.UseStyleColors = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(349, 115);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(998, 558);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.metroGrid2);
             this.Controls.Add(this.lnkLogOut);
             this.DisplayHeader = false;
@@ -123,5 +134,6 @@
 
         private MetroFramework.Controls.MetroLink lnkLogOut;
         private MetroFramework.Controls.MetroGrid metroGrid2;
+        private System.Windows.Forms.Button button1;
     }
 }
